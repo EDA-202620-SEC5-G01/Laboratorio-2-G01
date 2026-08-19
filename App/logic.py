@@ -30,7 +30,7 @@ import csv
 import os
 
 # Importar el modulo de la estructura de datos set
-from DataStructures import Set as set
+from DataStructures.Set import set
 
 # Directorio de datos de los archivos
 data_dir = os.path.dirname(os.path.realpath('__file__')) + '/Data/'
